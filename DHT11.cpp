@@ -1,9 +1,9 @@
 /*
  * File: DHT11.c
  * Project: src
- * Author: Mohamed Anis Messaoud,  medanis.messaoud@gmail.com
+ * Author: Omar Messaoud,  messaoudomar715@gmail.com
  * -----
- * Modified By: Mohamed Anis Messaoud
+ * Modified By: Omar Messaoud
  * -----
  *
  * Copyright (c) 2023 Inotek Engineering SARL
@@ -36,7 +36,7 @@ DHT11::DHT11(int pin)
     digitalWrite(pin, 0);
 }
 /**
- * @brief The sensor read and return.
+ * @brief read the sensor.
  * The sensor reads the data and verify if they are correct then return it.
  * @param pin The pin that we chose to read data from.
  * @return dht11_result

@@ -1,9 +1,9 @@
 /*
  * File: DHT11.h
  * Project: src
- * Author: Mohamed Anis Messaoud,  medanis.messaoud@gmail.com
+ * Author: Omar Messaoud,  messaoudomar715@gmail.com
  * -----
- * Modified By: Mohamed Anis Messaoud
+ * Modified By: Omar Messaoud
  * -----
  *
  * Copyright (c) 2023 Inotek Engineering SARL
@@ -50,7 +50,7 @@ public:
     DHT11(int pin);
 
        /**
-     * @brief reads the data from the DHT11 modulef
+     * @brief reads the data from the DHT11 module
      *
      * @param pin the number of the pin connected to the dht11 data pin
      * @return dht11_result structure containing the last operation result and parsed data if ok
