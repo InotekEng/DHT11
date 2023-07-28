@@ -23,10 +23,10 @@
 #include <Arduino.h>
 #include "DHT11.h"
 
-int D2 = 2; // Replace 2 with the actual board pin number where the DHT11 data pin is connected
+#define DHT_PIN D1 // Replace with the actual board pin number where the DHT11 data pin is connected
 
 // Create a DHT11 object with the data pin connected to D2 (replace D2 with the actual pin number)
-DHT11 dht11(D2);
+DHT11 dht11(DHT_PIN);
 
 void setup() {
   // Initialize the serial communication
